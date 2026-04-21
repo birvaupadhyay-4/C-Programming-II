@@ -1,0 +1,5 @@
+lst=list('MY NAME IS BIRVA')
+print("First 5 elements:",lst[0:5])
+print("Last 5:",lst[-5:])
+print("Index 2 to 7:",lst[2:8])
+print("Alternate elements:",lst[::2])
