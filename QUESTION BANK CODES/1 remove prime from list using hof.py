@@ -6,8 +6,8 @@ def prime(n):
         for i in range(2,n):
             if n%i==0:
                 return False
-    else:
-        return True
+            else:
+                return True
 def remove(lst):
     nlst=list(filter(lambda x:not prime(x),lst))
     print("List after removing prime nos.:",nlst)
