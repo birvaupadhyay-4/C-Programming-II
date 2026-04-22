@@ -11,7 +11,7 @@ def prime(n):
 def remove(lst):
 
     nlst=list(filter(lambda x:not prime(x),lst))
-    print("List after removing prime nos.:",nlist)
+    print("List after removing prime nos.:",nlst)
     return nlst
 
 lst=list(map(int,input("Enter list:").split()))
